@@ -1,0 +1,30 @@
+#register {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.input-container label {
+  width: 100px;
+  margin-right: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button-submit {
+  margin-left: 108px;
+  width: 100px;
+}
