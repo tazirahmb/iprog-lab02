@@ -9,8 +9,8 @@ padding: 0;
 /* header */
 #my-header {
   width: 100%;
-  background-color: gainsboro;
-  height: 30vh;
+  background-color: lightcoral;
+  height: 27.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,12 @@ padding: 0;
   display: inline-flex;
   font-size: 48pt;
   font-weight: bold;
+  color: white;
 }
 
 #my-navbar {
   width: 100%;
-  background-color: lightblue;
+  background-color: black;
   height: 48px;
   display: flex;
   flex-direction: row;
@@ -36,21 +37,21 @@ padding: 0;
   justify-content: center;
 }
 
-#my-navbar .navbar-btn {
-  display: flex;
+#my-navbar .navbar-link {
   text-decoration: none;
   font-size: 14pt;
-  padding: 0 16px;
+  padding: 10px 16px;
   min-width: 120px;
-  color: darkblue;
+  color: white;
   font-weight: bold;
+  text-align: center;
 }
 
-#my-navbar .navbar-btn:hover {
+#my-navbar .navbar-link:hover {
   cursor: pointer;
   transition: 0.25s all;
-  background-color: darkblue;
-  color: white;
+  background-color: rgb(234, 189, 189);
+  color: black;
 }
 
 main {
@@ -61,7 +62,7 @@ main {
 
 #about {
   padding: 16px 32px;
-  background-color: #eee;
+  background-color: gainsboro;
   width: 25%;
 }
 
@@ -72,8 +73,8 @@ main {
 
 #my-footer {
   width: 100%;
-  height: 72px;
-  background-color: gainsboro;
+  height: calc(12.5vh - 48px);
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
